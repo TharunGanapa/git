@@ -10,10 +10,19 @@
 // buchi.innerText = "<b>hello</b>";
 
 
-let boxes = document.getElementsByClassName("box");
+// let boxes = document.getElementsByClassName("box");
 
-let para = document.getElementsByClassName("para");
+// let para = document.getElementsByClassName("para");
 
-boxes[1].innerHTML = "bye";
+// boxes[1].innerHTML = "bye";
 
-para[0].innerHTML = "holaa";
+// para[0].innerHTML = "holaa";
+
+
+// Events
+
+const myFun = () => {
+   let display = document.getElementById("display");
+   display.innerHTML = "Bye";
+    
+};
