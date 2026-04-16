@@ -21,8 +21,31 @@
 
 // Events
 
-const myFun = () => {
-   let display = document.getElementById("display");
-   display.innerHTML = "Bye";
+
+// let isShow = true
+// const myFun = () => {
+//    let display = document.getElementById("display");
+// //    display.innerHTML = display.innerHTML === "Hello" ? "bye" : "Hello"
+
+// if (isShow) {
+//     display.src = "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+//     isShow = !isShow
+// }  else {
+//     display.src = "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+//     isShow = !isShow
+// }
     
-};
+// };
+
+const add = () => {
+    event.preventDefault();
+    let val1 = Number(document.getElementById("value1").value)
+    let val2 = Number(document.getElementById("value2").value)
+    let display = document.getElementById("display")
+
+    display.innerHTML = `sum of ${val1} and ${val2} is ${val1 + val2}`
+
+
+
+
+}
